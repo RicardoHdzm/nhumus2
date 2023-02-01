@@ -373,3 +373,7 @@ h4>a:hover{
 .social-icon-nav:hover{
 	opacity: .8;
 }
+
+.asset{
+	width: 80px;
+}
