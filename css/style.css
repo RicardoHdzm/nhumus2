@@ -1,0 +1,366 @@
+
+html, body {
+    height: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+  }
+
+div{
+	margin: 0!important;
+	padding: 0!important;
+}
+
+
+h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 48px;
+}
+
+h2{
+		font-family: 'Playfair Display', serif;
+}
+
+h5{
+	font-weight: 300;
+	font-size: 16px;
+
+}
+
+h4{
+	font-weight: 400;
+}
+
+
+h4>a{
+	color:#828a82;;
+}
+
+h4>a:hover{
+	color :#828a82;
+	text-decoration: underline;
+}
+
+.navbar{
+	background-color: #eaeae8;
+	font-size: 2rem;
+	font-weight: 300;
+	color:#828a82;
+	box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
+
+.navbar-brand:hover{
+	opacity: .9;
+}
+
+.navbar-nav>a{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-style: italic;
+	color:#828a82!important;
+	font-size: 18px;
+
+}
+
+.nav-logo{
+	width: 120px;
+
+}
+
+.nav-button{
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	border-width: thin;
+	font-weight: 700;
+	height: fit-content;
+}
+
+.nav-button:hover{
+	background-color: white;
+	color: black!important;
+	border-color: white;
+	font-weight: 700;
+	height: fit-content;
+	text-decoration: none;
+}
+
+.footer{
+	background-color: #cac8bd;
+	height: fit-content;
+	font-size: 14px;
+	color: #707070;
+}
+
+.icon-size{
+  vertical-align:bottom;
+	font-size: 22px;
+}
+
+.carousel{
+	height: 100vh;
+}
+
+.section{
+	height: fit-content;
+	background-color: #cac8bd;
+	color: #828a82;
+}
+
+.contact{
+	height: fit-content;
+	background-color: #eaeae8;
+	color: #828a82;
+}
+
+.contact > h4{
+	font-weight: 500!important;
+}
+
+.tittles{
+	font-family: 'Playfair Display', serif;
+}
+
+.body-text{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.section2{
+	height: fit-content;
+	background-color: #f4f4f4;
+	color: #828a82;
+}
+
+.section3{
+	height: fit-content;
+	background-color: #a39180;
+	color: white;
+}
+
+
+.section-img{
+	width: 100%;
+}
+
+.section-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	background-color: transparent;
+	color: #828a82;
+	border: solid;
+	border-width: 2px;
+	border-color: #828a82;
+	border-radius: 0px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.section-btn:hover{
+	color: white;
+	background-color: #756a52;
+	border-color: transparent;
+}
+
+.section3-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	background-color: #756a52;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: #756a52;
+	border-radius: 0px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.section3-btn:hover{
+	color: white;
+	background-color: #828a82;
+	border-color: #828a82;
+}
+
+.carousel-caption{
+	transform: translateY(-50%);
+  bottom: 0;
+  top: 65%;
+}
+
+
+.slide{
+	height: 100vh;
+}
+
+.slide-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-size: medium;
+	background-color: transparent;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	border-color: white;
+	border-radius: 0px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.slide-btn:hover{
+	background-color: #756a52;
+	border-color: transparent;
+}
+
+
+.btn:focus,.btn:active {
+   outline: none !important;
+   box-shadow: none;
+}
+
+
+
+.img-invert{
+	width: 100px;
+	filter: invert(100%);
+}
+
+.button{
+	color: white;
+	border: solid;
+	border-color: white;
+	border-radius: 20px;
+	border-width: thin;
+	font-weight: 300;
+	height: fit-content;
+	font-style: italic;
+}
+
+.button:hover{
+	color: black;
+	background-color: white;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.carousel-indicators > li {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  margin-left: 10px;
+}
+
+.text {
+  color: white;
+  font-size: medium;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  user-select: none;
+}
+
+
+.about-img{
+	max-width: 100%;
+	height: 100%;
+}
+
+ .map-container{
+  overflow:hidden;
+  position:relative;
+  height: 0;
+}
+
+.map-container iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  filter: grayscale(100%) brightness(1);
+}
+
+.img-footer{
+	width: 200px;
+}
+
+.home{
+	cursor: pointer;
+}
+
+#topBtn {
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 35px; /* Place the button 30px from the right */
+  z-index: 90; /* Make sure it does not overlap */
+  outline: none; /* Remove outline */
+  border-color: transparent;
+  background-color: transparent; /* Set a background color */
+  color: gray; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  font-weight: bolder;
+  transition: 0.5s ease;
+  opacity: .5;
+
+}
+
+#topBtn:hover {
+  color: white;
+  opacity: 1;
+}
+
+.arrow-size{
+	font-size: 65px;
+	user-select: none;
+}
+
+.form-control{
+	background-color: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0;
+  color: #828a82;
+  border-color: #828a82;
+  border-width: 2px;
+  font-size: 20px;
+}
+
+.form-control:focus, .form-control:active{
+	background-color: transparent;
+	outline: none !important;
+  box-shadow: none;
+}
+
+.form-border{
+	border: solid!important;
+	border-color: black;
+	border-width: 2px!important;
+}
+
+.img-mrg{
+	width: 100%;
+}
+
+.social-icon{
+	width: 25px;
+	height: 25px;
+}
+
+.social-icon:hover{
+	opacity: .8;
+}
+
+.social-icon-nav{
+
+}
+
+.social-icon-nav:hover{
+	opacity: .8;
+}
