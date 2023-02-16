@@ -48,7 +48,7 @@ h4>a:hover{
 	font-size: 2rem;
 	font-weight: 300;
 	color:#828a82;
-	box-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+	xox-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
 }
 
 .navbar-brand:hover{
@@ -148,6 +148,28 @@ h4>a:hover{
 	color: white;
 }
 
+.section4{
+	height: fit-content;
+	background-color: #eaeae8;
+	color: #828a82;
+}
+
+ .section2 p{
+ 	font-size: large;
+ }
+
+ .section3 p{
+ 	font-size: large;
+ }
+
+ .section p{
+ 	font-size: large;
+ }
+
+  .section4 p{
+ 	font-size: large;
+ }
+
 
 .section-img{
 	width: 100%;
@@ -173,6 +195,26 @@ h4>a:hover{
 	border-color: transparent;
 }
 
+.section2-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	background-color: transparent;
+	color: #828a82;
+	border: solid;
+	border-width: 2px;
+	border-color: #828a82;
+	border-radius: 0px;
+	width: 100%;
+}
+
+.section2-btn:hover{
+	color: white;
+	background-color: #756a52;
+	border-color: transparent;
+}
+
+
 .section3-btn{
 	font-family: 'Playfair Display', serif;
 	font-style: italic;
@@ -193,15 +235,57 @@ h4>a:hover{
 	border-color: white;
 }
 
+.section4-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	background-color: #756a52;
+	border-color: #756a52;
+	border-radius: 0px;
+	width: 100%;
+}
+
+.section4-btn:hover{
+	color: white;
+	background-color: transparent;
+	border-color: white;
+}
+
+.section5-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	background-color: transparent;
+	color: #828a82;
+	border: solid;
+	border-width: 2px;
+	border-color: #828a82;
+	border-radius: 0px;
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.section5-btn:hover{
+	color: white;
+	background-color: #756a52;
+	border-color: transparent;
+}
+
 .carousel-caption{
-	transform: translateY(-50%);
   bottom: 0;
-  top: 65%;
+  top: 45%;
 }
 
 
 .slide{
 	height: 100vh;
+}
+
+.slide2{
+	height: 70vh;
 }
 
 .slide-btn{
@@ -303,6 +387,19 @@ h4>a:hover{
 	cursor: pointer;
 }
 
+.history{
+	background-image: url("../img/10.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: fit-content;
+	text-align: center;
+}
+
+.header-text{
+	height: fit-content!important;
+}
+
 #topBtn {
   position: fixed; /* Fixed/sticky position */
   bottom: 50px; /* Place the button at the bottom of the page */
@@ -376,4 +473,51 @@ h4>a:hover{
 
 .asset{
 	width: 80px;
+}
+
+
+.faq-section{
+	height: fit-content;
+	background-color: #a39180;
+	color: white;
+	padding-top: 5px!important;
+	padding-bottom: 5px!important;
+}
+
+@media only screen and (max-width: 760px){
+
+	body{
+		text-align: center!important;
+	}
+ 	.carousel-caption{
+ 		top: 40%;
+ 	}
+
+ 	.section5-btn{
+ 	padding-left: 0px;
+	padding-right: 0px;
+	width: 100%;
+ 	}
+ }
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(234,234,232, .2)
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #828a82;
+  border-radius: 1px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #756a52;
 }
