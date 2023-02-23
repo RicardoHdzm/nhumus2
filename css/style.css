@@ -45,10 +45,31 @@ h4>a:hover{
 
 .navbar{
 	background-color: #eaeae8;
-	font-size: 2rem;
+	font-size: medium;
 	font-weight: 300;
 	color:#828a82;
 	xox-shadow: 0px 8px 8px -6px rgba(0,0,0,.5);
+}
+
+.dropdown{
+	font-size: small;
+	font-weight: bold;
+}
+
+.dropdown-menu{
+	background-color: rgba(255, 255, 255, 1.0);
+	font-size: small;
+	width: fit-content;
+}
+
+.dropdown-item{
+	font-size: small;
+	font-weight: bold;
+	width: fit-content!important;
+}
+
+.dropdown-item:hover{
+	background-color: white;
 }
 
 .navbar-brand:hover{
@@ -282,6 +303,7 @@ h4>a:hover{
 
 .slide{
 	height: 100vh;
+	transition: transform .2s ease-out;
 }
 
 .slide2{
@@ -498,6 +520,10 @@ h4>a:hover{
 	padding-right: 0px;
 	width: 100%;
  	}
+
+ 	.slide{
+
+ 	}
  }
 
 
@@ -520,4 +546,13 @@ h4>a:hover{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #756a52;
+}
+
+.zoom{
+	transition: transform 2s ease-out!important;
+}
+
+.zoom:hover{
+	transform: scale(1.5)!important;
+	transition: transform 2s ease-out!important;
 }
