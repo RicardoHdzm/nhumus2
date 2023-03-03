@@ -219,6 +219,7 @@ h4>a:hover{
 	width: 100%;
 }
 
+
 .section2-img{
 	height: 100%;
 }
@@ -612,6 +613,16 @@ h4>a:hover{
 	margin-bottom: 50px!important;
 }
 
+.zoom{
+	transition: transform 2s ease-out!important;
+}
+
+.zoom:hover{
+	transform: scale(1.5)!important;
+	transition: transform 2s ease-out!important;
+}
+
+
 .faq-section{
 	height: fit-content;
 	background-color: #a39180;
@@ -666,11 +677,3 @@ h4>a:hover{
   background: #756a52;
 }
 
-.zoom{
-	transition: transform 2s ease-out!important;
-}
-
-.zoom:hover{
-	transform: scale(1.5)!important;
-	transition: transform 2s ease-out!important;
-}
