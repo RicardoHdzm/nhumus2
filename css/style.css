@@ -82,7 +82,6 @@ h4>a:hover{
 	font-style: italic;
 	color:#828a82!important;
 	font-size: 18px;
-
 }
 
 .nav-logo{
@@ -163,6 +162,30 @@ h4>a:hover{
 	color: #828a82;
 }
 
+
+.section6{
+	height: fit-content;
+	background-color: white;
+	color: #828a82;
+	text-align: left;
+}
+
+.section6 h3{
+	font-size: large;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Playfair Display', serif!important;
+	color: #756a52;
+}
+
+
+.list-icon{
+	width: 35px;
+}
+.logo-kanil{
+	width: 200px;
+}
+
 .section3{
 	height: fit-content;
 	background-color: #a39180;
@@ -194,6 +217,15 @@ h4>a:hover{
 
 .section-img{
 	width: 100%;
+}
+
+.section2-img{
+	height: 100%;
+}
+
+.img-mrg{
+	overflow: hidden;
+	display: inline-block;
 }
 
 .section-btn{
@@ -293,6 +325,25 @@ h4>a:hover{
 	color: white;
 	background-color: #756a52;
 	border-color: transparent;
+}
+
+.section6-btn{
+	font-family: 'Playfair Display', serif;
+	font-style: italic;
+	font-weight: bold;
+	color: white;
+	border: solid;
+	border-width: 2px;
+	background-color: #756a52;
+	border-color: #756a52;
+	border-radius: 0px;
+	width: 50%;
+}
+
+.section6-btn:hover{
+	color: white;
+	background-color: #828a82;
+	border-color: #828a82;
 }
 
 .carousel-caption{
@@ -418,6 +469,15 @@ h4>a:hover{
 	text-align: center;
 }
 
+.kanil{
+	background-image: url("../img/16.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: fit-content;
+	text-align: center;
+}
+
 .header-text{
 	height: fit-content!important;
 }
@@ -479,6 +539,7 @@ h4>a:hover{
 .social-icon{
 	width: 25px;
 	height: 25px;
+	filter: invert(100%)!important;
 }
 
 .social-icon:hover{
