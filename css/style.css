@@ -558,6 +558,59 @@ h4>a:hover{
 	width: 80px;
 }
 
+.faqs{
+	background-color: #ededeb;
+	color: #828a82;
+}
+
+.faqs h1{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 48px;
+}
+
+.faqs h2{
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: xx-large;
+	color: #828a82;
+}
+
+.faqs p{
+	font-size: large;
+}
+
+.faqs a{
+	color: ;
+}
+
+.accordion{
+	background-color: transparent!important;
+}
+
+.card{
+	background-color: transparent!important;
+	border: none;
+	border-bottom: solid;
+	border-bottom-width: 1px;
+	border-radius: 0px!important;
+	padding-top: 20px!important;
+}
+
+.card-header{
+	background-color: transparent!important;
+	border: none;
+	border-bottom-color: #828a82;
+}
+
+.faqs .btn-block{
+	background-color: transparent!important;
+}
+
+.card-body{
+	margin-top: 10px!important;
+	margin-bottom: 50px!important;
+}
 
 .faq-section{
 	height: fit-content;
@@ -585,6 +638,10 @@ h4>a:hover{
  	.slide{
 
  	}
+
+ 	.faqs h2{
+	font-size: large;
+	font-weight: bold;
  }
 
 
